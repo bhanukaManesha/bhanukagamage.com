@@ -12,6 +12,7 @@ addons:
 before_script:
   - npm install -g @angular/cli 
   - npm install n -g
+  - n stable
 
 cache:
   yarn: true
