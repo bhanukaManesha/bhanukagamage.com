@@ -31,5 +31,5 @@ after_success:
   - sudo apt-get update
   - cd /var/www/bhanukagamage.com
   - sudo git pull origin master
-  - sudo ng build --prod
+  - ng build --prod --build-optimizer
   
