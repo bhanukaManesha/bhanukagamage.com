@@ -24,7 +24,6 @@ before_install:
 - chmod 600 ./deploy_key
 - echo -e "Host ec2-52-221-17-136.ap-southeast-1.compute.amazonaws.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 - ssh-add ./deploy_key
-- ssh -i ./deploy_key ubuntu@ec2-52-221-17-136.ap-southeast-1.compute.amazonaws.com pwd
 
 deploy:
 - provider: script
