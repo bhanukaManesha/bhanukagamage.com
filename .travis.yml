@@ -1,32 +1,27 @@
 language: node_js
 node_js:
- - "10.9"
-
+- '10.9'
 branches:
   only:
-    - master
-
+  - master
 addons:
   chrome: stable
-
 before_script:
-  - npm install -g @angular/cli 
-
+- npm install -g @angular/cli
 cache:
   yarn: true
   directories:
-    - node_modules
-
+  - node_modules
 script:
-  - ng build --prod
-
+- ng build --prod
 notifications:
-  email : "bhanukamgamage@gmail.com"
+  email: bhanukamgamage@gmail.com
 
-# deploy:
-#   provider: pages
-#   skip-cleanup: true
-#   github-token: $GITHUB_TOKEN
-#   keep-history: true
-#   local-dir: ./dist/
-#   on:
+before_install:
+- openssl aes-256-cbc -K $encrypted_48b3bd1ee5e4_key -iv $encrypted_48b3bd1ee5e4_iv
+  -in deploy_key.enc -out ./deploy_key -d
+- eval "$(ssh-agent -s)"
+- chmod 600 ./deploy_key
+- echo -e "Host $SERVER_IP_ADDRESS\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+- ssh-add ./deploy_key
+- ssh -i ./deploy_key root@138.68.163.126 pwd
