@@ -11,7 +11,7 @@ addons:
 
 before_script:
   - npm install -g @angular/cli 
-  - sudo n stable
+  - npm install n -g
 
 cache:
   yarn: true
