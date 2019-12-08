@@ -30,6 +30,6 @@ before_install:
 after_success:
   - sudo apt-get update
   - cd /var/www/bhanukagamage.com
-  - git pull origin master
-  - ng build --prod
+  - sudo git pull origin master
+  - sudo ng build --prod
   
