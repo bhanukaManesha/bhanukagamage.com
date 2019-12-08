@@ -25,3 +25,11 @@ before_install:
 - echo -e "Host $SERVER_IP_ADDRESS\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 - ssh-add ./deploy_key
 - ssh -i ./deploy_key root@138.68.163.126 pwd
+
+
+after_success:
+  - sudo apt-get update
+  - cd /var/www/bhanukagamage.com
+  - git pull origin master
+  - ng build --prod
+  
