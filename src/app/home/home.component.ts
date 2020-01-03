@@ -10,7 +10,7 @@ export class HomeComponent implements OnInit {
 	timeLeft : String;
 	interval;
 
-	countDownDate = new Date("Jan 1, 2020 00:00:00").getTime();
+	countDownDate = new Date("Jan 6, 2020 00:00:00").getTime();
 
 
   constructor() { 
