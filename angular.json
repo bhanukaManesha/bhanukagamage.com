@@ -24,12 +24,32 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/styles.css"
+              "src/assets/icons/font-awesome-4.7.0/css/font-awesome.min.css",
+              "src/assets/plugins/css/bootstrap.min.css",
+              "src/assets/plugins/css/animate.css",
+              "src/assets/plugins/css/owl.css",
+              "src/assets/plugins/css/jquery.fancybox.min.css",
+              "src/assets/css/styles.css",
+              "src/assets/css/responsive.css",
+              "src/assets/css/colors/blue-munsell.css"
+
             ],
             "scripts": [
-              "node_modules/jquery/dist/jquery.min.js",
-              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+              "src/assets/plugins/js/jquery.min.js",
+              "src/assets/plugins/js/popper.min.js",
+              "src/assets/plugins/js/bootstrap.min.js",
+              "src/assets/plugins/js/owl.carousel.js",
+              "src/assets/plugins/js/validator.min.js",
+              "src/assets/plugins/js/wow.min.js",
+              "src/assets/plugins/js/jquery.mixitup.min.js",
+              "src/assets/plugins/js/circle-progress.js",
+              "src/assets/plugins/js/jquery.nav.js",
+              "src/assets/plugins/js/jquery.fancybox.min.js",
+              "src/assets/plugins/js/isotope.pkgd.js",
+              "src/assets/plugins/js/packery-mode.pkgd.js",
+              "src/assets/js/custom-scripts.js",
+              "src/assets/js/map-init.js",
+              "src/assets/plugins/js/fa.js"
             ]
           },
           "configurations": {
