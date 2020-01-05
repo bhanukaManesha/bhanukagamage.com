@@ -37,6 +37,7 @@
             "scripts": [
               "src/assets/plugins/js/jquery.min.js",
               "src/assets/plugins/js/popper.min.js",
+              "src/assets/plugins/js/bootstrap.min.js",
               "src/assets/plugins/js/owl.carousel.js",
               "src/assets/plugins/js/validator.min.js",
               "src/assets/plugins/js/wow.min.js",
@@ -46,14 +47,9 @@
               "src/assets/plugins/js/jquery.fancybox.min.js",
               "src/assets/plugins/js/isotope.pkgd.js",
               "src/assets/plugins/js/packery-mode.pkgd.js",
-              "src/assets/plugins/js/bootstrap.min.js",
+              "src/assets/js/custom-scripts.js",
               "src/assets/js/map-init.js",
-              "src/assets/js/custom-scripts.js"
-
-
-
-
-
+              "src/assets/plugins/js/fa.js"
             ]
           },
           "configurations": {

@@ -1,4 +1,4 @@
-/*------------- 
+/*-------------
 [Table of contents]
 
 [ DEFULT INDEX NUMBER ]
@@ -21,15 +21,15 @@
 -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [ Color codes ]
-    
+
     [ Text and Background Color ]
-        Main color 1:       #1c93e5     
-        Main color 2:       #009688      
+        Main color 1:       #1c93e5
+        Main color 2:       #009688
         Main color 3:       #9c27b0
-        Main color 4:       #ff4081      
-        Background 1:       #FFFFFF            
-        Background 2:       #F6F6F6           
-        Shadow color:       #000000;            
+        Main color 4:       #ff4081
+        Background 1:       #FFFFFF
+        Background 2:       #F6F6F6
+        Shadow color:       #000000;
 
 -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
@@ -56,7 +56,7 @@
         font-size: 20px;
         font-weight: 600;
 
-    p:  
+    p:
         font-size: 18px;
         line-height: 30px;
 
@@ -78,7 +78,7 @@
 
 /**
  * -------------------
- *  Defult CSS 
+ *  Defult CSS
  * -------------------
  */
 html {
@@ -358,7 +358,7 @@ a {
   .btn-text-link a {
     margin-left: 10px; }
 
-/** 
+/**
  * -----------------
  * Social Icon Style
  * -----------------
@@ -580,7 +580,7 @@ button {
     box-shadow: 0 0px 2px 0 rgba(255, 255, 255, 0.8), 0 0px 1px 1px rgba(255, 255, 255, 0.8);
     border-color: transparent; }
 
-/** 
+/**
  * -----------------
  * General CSS
  * -----------------
@@ -842,7 +842,7 @@ body {
     ==============
 */
 /*---------------------------------------------------------------------*/
-/* Loader 
+/* Loader
 /*---------------------------------------------------------------------*/
 .section-loader {
   position: fixed;
@@ -1766,7 +1766,7 @@ body {
 */
 .old {
   /*==============
-            Overlay            
+            Overlay
   ================== */
   /*  Navigation Menu */ }
   .old .navbar-collapse {
@@ -2501,6 +2501,8 @@ body {
       color: #ed7256; }
     .mh-service .mh-service-item .fa.sky-color {
       color: #2796e2; }
+    .mh-service .mh-service-item .fa.bright-color {
+      color: #e2df27; }
   .mh-service .mh-service-item h3 {
     margin-bottom: 18px;
     font-size: 25px;
