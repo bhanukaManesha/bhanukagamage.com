@@ -17,13 +17,5 @@ script:
 notifications:
   email: bhanukamgamage@gmail.com
 
-before_install:
-- openssl aes-256-cbc -K $encrypted_48b3bd1ee5e4_key -iv $encrypted_48b3bd1ee5e4_iv
-  -in deploy_key.enc -out ./deploy_key -d
-- eval "$(ssh-agent -s)"
-- chmod 600 ./deploy_key
-- echo -e "Host ec2-52-221-17-136.ap-southeast-1.compute.amazonaws.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
-- ssh-add ./deploy_key
-
 after_sucess:
-  - ssh -i ./deploy_key ubuntu@ec2-52-221-17-136.ap-southeast-1.compute.amazonaws.com 'bash -s' < deploy.sh
+  - ssh root@157.245.184.69 'bash -s' < deploy.sh
