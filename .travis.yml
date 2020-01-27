@@ -18,7 +18,7 @@ notifications:
   email: bhanukamgamage@gmail.com
 
 before_install:
-- echo -e "Host ec2-52-221-17-136.ap-southeast-1.compute.amazonaws.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+- echo -e "Host 157.245.184.69\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 
 after_sucess:
   - ssh -i ./deploy_key ubuntu@ec2-52-221-17-136.ap-southeast-1.compute.amazonaws.com 'bash -s' < deploy.sh
