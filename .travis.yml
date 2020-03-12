@@ -7,7 +7,7 @@ branches:
 addons:
   chrome: stable
 before_script:
-- npm install n -g && n stable
+- sudo npm install n -g && n stable
 - npm install -g @angular/cli
 cache:
   yarn: true
