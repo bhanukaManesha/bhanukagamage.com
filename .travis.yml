@@ -1,13 +1,12 @@
 language: node_js
 node_js:
-- '10.9'
+- '12.0'
 branches:
   only:
   - master
 addons:
   chrome: stable
 before_script:
-- sudo npm install n -g && n stable
 - npm install -g @angular/cli
 cache:
   yarn: true
