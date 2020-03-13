@@ -1,5 +1,6 @@
 #!/bin/bash
 pwd
+npm install --save-dev @angular/cli@latest
 sudo apt-get update
 cd /var/www/bhanukagamage.com/
 sudo git fetch --all
