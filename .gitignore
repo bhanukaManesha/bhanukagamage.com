@@ -7,7 +7,6 @@
 /bazel-out
 
 # dependencies
-/dist
 /node_modules
 
 # profiling files
